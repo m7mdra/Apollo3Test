@@ -1,0 +1,16 @@
+query AllLunches{
+    launches{
+        launches{
+            rocket{
+                name
+            }
+            site
+            id
+            isBooked
+            mission{
+                name
+                missionPatch
+            }
+        }
+    }
+}
